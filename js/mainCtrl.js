@@ -1,5 +1,5 @@
 angular.module('timeApp')
-  .controller(function ($scope) {
+  .controller('mainCtrl', function ($scope) {
 
     $scope.name = 'Marc';
   })
